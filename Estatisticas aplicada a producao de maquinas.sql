@@ -1,3 +1,18 @@
+CREATE TABLE MAQUINAS(
+	MAQUINA VARCHAR(20),
+	DIA INT,
+	QTD NUMERIC(10,2)
+);
+
+/*Caso queira adicionar pelo script */
+C:\Scripts SQL DataScience
+
+COPY MAQUINAS
+FROM 'C:\Scripts SQL DataScience\lOGmAQUINAS.csv' 
+DELIMITER ','
+CSV HEADER;
+
+/*Adicionei o arquivo CSV direto pelo programa */
 SELECT * FROM MAQUINAS;
 
 /*MEDIA DAS MAQUINAS */
